@@ -99,7 +99,7 @@ function squashChatMessages({ chat, dryRun }) {
     }
 
     const squashedMessage = {
-        role: 'user',
+        role: 'system',
         content: toSquash.map(x => x.content).join('\n\n'),
     };
 
