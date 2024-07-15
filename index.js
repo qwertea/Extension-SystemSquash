@@ -37,7 +37,7 @@ container.appendChild(button);
 
 function updateButton() {
     localStorage.setItem(localStorageKey, isEnabled);
-    text.textContent = isEnabled ? 'Disable User Squash' : 'Enable User Squash';
+    text.textContent = isEnabled ? 'Disable System Squash' : 'Enable System Squash';
     icon.classList.toggle('fa-comments', isEnabled);
     icon.classList.toggle('fa-comment', !isEnabled);
 }
